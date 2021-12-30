@@ -3,7 +3,7 @@ const blogRoute = require("./routes/blogs");
 const cors = require("cors");
 require("dotenv").config();
 
-const PORT = process.env.LOCAL_SERVER_PORT || 1104;
+const PORT = process.env.PORT || 1104;
 const app = express();
 
 app.use(
